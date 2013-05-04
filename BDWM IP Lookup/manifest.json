@@ -1,0 +1,20 @@
+{
+    "content_scripts": [ {
+        "exclude_matches": [  ],
+        "include_globs": [  ],
+        "js": [ "script.js" ],
+        "matches": [
+            "http://www.bdwm.net/*",
+            "http://bbs.pku6.edu.cn/*",
+            "http://bbs.pku.edu.cn/*",
+            "http://162.105.205.23/*"
+        ],
+        "run_at": "document_idle"
+    } ],
+    "converted_from_user_script": true,
+    "name": "BDWM IP Lookup",
+    "version": "1.2.7",
+    "manifest_version": 2,
+    "description": "Meant for bdwm.net.Append all IP addresses with domain name if available.",
+    "update_url": "http://clients2.google.com/service/update2/crx"
+}
